@@ -13,14 +13,6 @@ textarea {
   padding: 10px;
 }
 
-.jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
-}
-
 .description {
   white-space: pre-wrap;
 }
@@ -33,13 +25,13 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
+  border-top: 3px solid darkgoldenrod;
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: white;
+  color: black;
+  border-top: 3px solid darkgoldenrod;
 }
 
 .past {
