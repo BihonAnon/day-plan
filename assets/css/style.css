@@ -29,9 +29,11 @@ textarea {
 }
 
 .hour {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   border-top: 3px solid darkgoldenrod;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 .past {
@@ -53,11 +55,13 @@ textarea {
   border-left: 3px solid darkgoldenrod;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  background-color: black
+  background-color: black;
+  color: white;
+}
+.refreshBtn {
+  border-left: 3px solid darkgoldenrod;
+  border-radius: 30px;
+  background-color: black;
   color: white;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
-}

@@ -4,28 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Work Day Scheduler</title>
+    <title>Daily-Planer</title>
   </head>
   <h1 class="display-2 text-center text-light">Daily-Planer</h1>
-  <p id="currentDay" class="display-2 text-center text-light">Tuesday June 7th</p>
+  <p id="todaydate" class="display-2 text-center text-light">Tuesday June 7th</p>
   <body>
     <div class="container">
       <!-- Timeblocks go here -->
+      <button class="col-sm-1 refreshBtn btn"><i class="fa-solid fa-hourglass"></i></button>
       <div id='9' class="row event-card">
         <div class="col-sm-1 hour">9AM</div>
         <textarea class="col-sm-10 description"></textarea>
@@ -74,6 +63,7 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://kit.fontawesome.com/2d6af79fb7.js" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
